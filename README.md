@@ -15,7 +15,7 @@ Fast Handson Tutorials of CUDA Cpp Programming
 ### C1-Basic
 ##### [C001-查看CUDA版本](C1-Basic/C001-查看CUDA版本.md)
 ##### [C002-下载CUDA](C1-Basic/C002-下载CUDA.md)
-##### [C003-安装VS-Code](C1-Basic/C003-安装VS-Code.md)
+##### [C003-安装Visual-Studio](C1-Basic/C003-安装Visual-Studio.md)
 ##### [C004-安装CUDA](C1-Basic/C004-安装CUDA.md)
 ##### [C005-VS2022+CUDA12.5编程开始](C1-Basic/C005-VS2022+CUDA12.5编程开始.md)
 ##### [C006-VS2022+CUDA12.5-第一个程序](C1-Basic/C006-VS2022+CUDA12.5-第一个程序.md)

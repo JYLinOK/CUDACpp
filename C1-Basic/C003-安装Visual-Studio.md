@@ -1,4 +1,4 @@
-# C003-安装VS2022
+# C003-安装Visual-Studio
 
 先安装VS2022，再安装CUDA。
 
