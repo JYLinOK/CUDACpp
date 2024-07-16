@@ -2,7 +2,20 @@ import os
 import platform
 
 ## Author Jinwei Lin
+# =========================================================================
 
+
+
+
+
+
+
+
+
+
+
+
+# =========================================================================
 print("======= Get this files structure =======")
 
 platform_sys = platform.system()
