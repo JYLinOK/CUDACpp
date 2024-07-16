@@ -1,5 +1,5 @@
 ### C1-Basic
-##### [C001-查看CUDA版本](C1-Basic\C001-查看CUDA版本.md)
-##### [C002-下载CUDA](C1-Basic\C002-下载CUDA.md)
-##### [C003-安装CUDA](C1-Basic\C003-安装CUDA.md)
-##### [C004-安装VS-Code](C1-Basic\C004-安装VS-Code.md)
+##### [C001-查看CUDA版本](C1-Basic/C001-查看CUDA版本.md)
+##### [C002-下载CUDA](C1-Basic/C002-下载CUDA.md)
+##### [C003-安装CUDA](C1-Basic/C003-安装CUDA.md)
+##### [C004-安装VS-Code](C1-Basic/C004-安装VS-Code.md)

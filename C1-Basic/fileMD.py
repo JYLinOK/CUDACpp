@@ -16,6 +16,15 @@ if platform_sys == 'Windows':
 else:
     this_dir_name = this_dir.split('//')[-1]
 
+if platform_sys == 'Windows':
+    Backslash = '\\'
+else:
+    Backslash = '/'
+
+GitHub_Backslash = True
+if GitHub_Backslash:
+    Backslash = '/'
+
 print(f'{this_dir = }')
 print(f'{this_dir_name = }')
 print(f'{this_dir_list = }')
@@ -26,7 +35,7 @@ md_files_L = []
 for file in this_dir_list:
     if file.endswith(".md"):
         first_dot_idx = file[::-1].index('.')+1
-        file_str = '##### [' + str(file[:-first_dot_idx]) + '](' + os.path.join(str(this_dir_name), file) + ')'
+        file_str = '##### [' + str(file[:-first_dot_idx]) + '](' + this_dir_name + Backslash + file + ')'
         md_files_L.append(file_str)
 
 print(f'{md_files_L = }')
