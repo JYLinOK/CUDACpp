@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  E:\CUDACpp\CudaRuntime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\VS2022\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir CudaRuntime1\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdCudaRuntime1\x64\Debug\vc143.pdb" -o E:\CUDACpp\CudaRuntime1\CudaRuntime1\x64\Debug\kernel.cu.obj "E:\CUDACpp\CudaRuntime1\kernel.cu" 
+  kernel.cu
+  tmpxft_0000199c_00000000-7_kernel.cudafe1.cpp
+    正在创建库 E:\CUDACpp\CudaRuntime1\x64\Debug\CudaRuntime1.lib 和对象 E:\CUDACpp\CudaRuntime1\x64\Debug\CudaRuntime1.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  CudaRuntime1.vcxproj -> E:\CUDACpp\CudaRuntime1\x64\Debug\CudaRuntime1.exe
