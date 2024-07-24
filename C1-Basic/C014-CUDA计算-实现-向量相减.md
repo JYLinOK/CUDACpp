@@ -1,4 +1,4 @@
-# C012-CUDA计算-实现向量相加
+# C014-CUDA计算-实现-向量相减
 
 ## cu代码
 
@@ -19,15 +19,15 @@ using namespace chrono;
 /// <summary>
 /// vectorAdd用于实现向量的加法
 /// </summary>
-/// <param name="A">两个相加向量中的一个</param>
-/// <param name="B">两个相加向量中的另一个</param>
-/// <param name="C">两个相加向量中的和向量-结果向量</param>
-/// <param name="Num"></param>
+/// <param name="A">两个相减向量中的一个</param>
+/// <param name="B">两个相减向量中的另一个</param>
+/// <param name="C">两个相减向量中的和向量-结果向量</param>
+/// <param name="Num">向量的维度</param>
 /// <returns></returns>
-__global__ void vectorAdd(const float* A, const float* B, float* C, int Num) {
+__global__ void vectorSubtract(const float* A, const float* B, float* C, int Num) {
     int i = blockIdx.x * blockDim.x + threadIdx.x;
     if (i < Num) {
-        C[i] = A[i] + B[i];
+        C[i] = A[i] - B[i];
     }
 }
 
@@ -105,10 +105,11 @@ int main() {
 输出：
 
 ```bash
- mal_C[0] = 0.000000  mal_C[1] = 2.000000  mal_C[2] = 4.000000  mal_C[3] = 6.000000  mal_C[4] = 8.000000  mal_C[5] = 10.000000  mal_C[6] = 12.000000  mal_C[7] = 14.000000  mal_C[8] = 16.000000  mal_C[9] = 18.000000
-调用核函数时间：1.641680秒
+ mal_C[0] = 0.000000  mal_C[1] = 0.000000  mal_C[2] = 0.000000  mal_C[3] = 0.000000  mal_C[4] = 0.000000  mal_C[5] = 0.000000  mal_C[6] = 0.000000  mal_C[7] = 0.000000  mal_C[8] = 0.000000  mal_C[9] = 0.000000
+调用核函数时间：1.704989秒
 
-E:\CUDACppCodes\C1-Basic\CudaRuntime5\x64\Debug\CudaRuntime5.exe (进程 22896)已退出，代码为 0。
+E:\CUDACppCodes\C1-Basic\CudaRuntime6\x64\Debug\CudaRuntime6.exe (进程 25548)已退出，代码为 0。
 要在调试停止时自动关闭控制台，请启用“工具”->“选项”->“调试”->“调试停止时自动关闭控制台”。
 按任意键关闭此窗口. . .
+
 ```

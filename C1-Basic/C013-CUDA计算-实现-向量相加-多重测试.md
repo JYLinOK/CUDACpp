@@ -24,7 +24,7 @@ using namespace chrono;
 /// <param name="A">两个相加向量中的一个</param>
 /// <param name="B">两个相加向量中的另一个</param>
 /// <param name="C">两个相加向量中的和向量-结果向量</param>
-/// <param name="Num"></param>
+/// <param name="Num">向量的维度</param>
 /// <returns></returns>
 __global__ void vectorAdd(const float* A, const float* B, float* C, int Num) {
     int i = blockIdx.x * blockDim.x + threadIdx.x;
