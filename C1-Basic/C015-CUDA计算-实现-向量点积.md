@@ -2,7 +2,7 @@
 
 ## cu代码
 
-代码：CudaRuntime5
+代码：CudaRuntime7
 
 ```cpp
 #include <stdio.h>
