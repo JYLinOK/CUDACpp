@@ -1,0 +1,19 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  E:\CUDACppCodes\C1-Basic\CudaRuntime4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\VS2022\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir CudaRuntime4\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdCudaRuntime4\x64\Debug\vc143.pdb" -o E:\CUDACppCodes\C1-Basic\CudaRuntime4\CudaRuntime4\x64\Debug\kernel.cu.obj "E:\CUDACppCodes\C1-Basic\CudaRuntime4\kernel.cu" 
+E:\CUDACppCodes\C1-Basic\CudaRuntime4\kernel.cu(19): warning #177-D: variable "n" was declared but never referenced
+    	int n = 1;
+    	    ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+E:\CUDACppCodes\C1-Basic\CudaRuntime4\kernel.cu(27): warning #177-D: variable "d" was declared but never referenced
+    	int d;
+    	    ^
+  
+  kernel.cu
+  tmpxft_00003a40_00000000-7_kernel.cudafe1.cpp
+E:\CUDACppCodes\C1-Basic\CudaRuntime4\kernel.cu(27): warning C4101: “d”: 未引用的局部变量
+    正在创建库 E:\CUDACppCodes\C1-Basic\CudaRuntime4\x64\Debug\CudaRuntime4.lib 和对象 E:\CUDACppCodes\C1-Basic\CudaRuntime4\x64\Debug\CudaRuntime4.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  CudaRuntime4.vcxproj -> E:\CUDACppCodes\C1-Basic\CudaRuntime4\x64\Debug\CudaRuntime4.exe

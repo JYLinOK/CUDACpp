@@ -2,7 +2,7 @@
 
 ## cu代码
 
-代码：CudaRuntime10
+代码：[../C0-Code/C1-Basic/CudaRuntime11/](../C0-Code/C1-Basic/CudaRuntime11/)
 
 ```cpp
 #include <stdio.h>

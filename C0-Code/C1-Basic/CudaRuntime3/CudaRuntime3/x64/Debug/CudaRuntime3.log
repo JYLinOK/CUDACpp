@@ -1,0 +1,6 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  E:\CUDACppCodes\CudaRuntime3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\VS2022\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir CudaRuntime3\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdCudaRuntime3\x64\Debug\vc143.pdb" -o E:\CUDACppCodes\CudaRuntime3\CudaRuntime3\x64\Debug\kernel.cu.obj "E:\CUDACppCodes\CudaRuntime3\kernel.cu" 
+  kernel.cu
+  tmpxft_00001fb8_00000000-7_kernel.cudafe1.cpp
+  CudaRuntime3.vcxproj -> E:\CUDACppCodes\CudaRuntime3\x64\Debug\CudaRuntime3.exe

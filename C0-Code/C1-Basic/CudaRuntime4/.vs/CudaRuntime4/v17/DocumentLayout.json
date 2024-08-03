@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CUDACppCodes\\C1-Basic\\CudaRuntime4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3357FEAA-B0F0-4FE7-9F19-F8E931ABDC8D}|CudaRuntime4.vcxproj|E:\\CUDACppCodes\\C1-Basic\\CudaRuntime4\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3357FEAA-B0F0-4FE7-9F19-F8E931ABDC8D}|CudaRuntime4.vcxproj|solutionrelative:kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kernel.cu",
+              "DocumentMoniker": "E:\\CUDACppCodes\\C1-Basic\\CudaRuntime4\\kernel.cu",
+              "RelativeDocumentMoniker": "kernel.cu",
+              "ToolTip": "E:\\CUDACppCodes\\C1-Basic\\CudaRuntime4\\kernel.cu",
+              "RelativeToolTip": "kernel.cu",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-20T14:06:53.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

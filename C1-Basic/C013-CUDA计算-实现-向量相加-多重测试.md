@@ -4,7 +4,7 @@
 
 ### 1-100
 
-代码：CudaRuntime5
+代码：[../C0-Code/C1-Basic/CudaRuntime5/](../C0-Code/C1-Basic//CudaRuntime5/)
 
 ```cpp
 #include <stdio.h>
